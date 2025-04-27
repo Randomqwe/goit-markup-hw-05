@@ -41,6 +41,10 @@
     <symbol id="icon-foot-tg-bnt" viewBox="0 0 32 32">
       <path d="M32 3 0 18l10 3L26 9 14 22v7l6-5 7 2 5-23z"/>
     </symbol>
-    
+
+    <symbol id="icon-closebtnmodaloverlay" viewBox="0 0 32 32">
+      <path d="m32 3-3-3-13 13L3 0 0 3l13 13L0 29l3 3 13-13 13 13 3-3-13-13L32 3z"/>
+    </symbol>
+
   </defs>
 </svg>
