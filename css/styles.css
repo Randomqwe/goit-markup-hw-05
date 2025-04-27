@@ -566,6 +566,8 @@ body {
   fill: #f4f4fd;
 }
 
+/* ============================ */
+
 .container-footer-form {
   margin-left: auto;
 }
@@ -578,6 +580,10 @@ body {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+}
+
+.footer-test {
+  display: flex;
 }
 
 .container-footer-form-input {
@@ -605,6 +611,16 @@ body {
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.container-footer-form-btn-svg {
+  fill: #fff;
 }
 
 /* FOOTER */
