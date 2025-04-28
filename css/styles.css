@@ -792,6 +792,10 @@ body {
   fill: #4d5ae5;
 }
 
+.hzpoka-overlay-comment {
+  margin-bottom: 16px;
+}
+
 .hzpoka-overlay-comment-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -863,4 +867,13 @@ body {
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hzpoka-overlay-check
+  input[type="checkbox"]:checked
+  + label
+  .hzpoka-overlay-check-label-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
