@@ -59,7 +59,7 @@
     </symbol>
 
     <symbol id="icon-checkptichka" viewBox="0 0 40 32">
-      <path fill="#f4f4fd" d="M34 1a4 4 0 0 1 6 3l-1 2-20 25a4 4 0 0 1-5 0L1 18a4 4 0 0 1 0-5 4 4 0 0 1 5 0l11 10L34 1z" style="fill:var(--color1, #f4f4fd)"/>
+      <path d="M34 1a4 4 0 0 1 6 3l-1 2-20 25a4 4 0 0 1-5 0L1 18a4 4 0 0 1 0-5 4 4 0 0 1 5 0l11 10L34 1z"/>
     </symbol>
 
   </defs>
