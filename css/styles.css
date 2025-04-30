@@ -425,6 +425,9 @@ body {
 .our-portfolio-items {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* ================ */
+  position: relative;
+  overflow: hidden;
 }
 
 .our-portfolio-items:hover {
@@ -433,8 +436,8 @@ body {
 }
 
 .overlay {
-  position: relative;
-  overflow: hidden;
+  /* position: relative;
+  overflow: hidden; */
 }
 
 .overlay-text {
@@ -455,7 +458,7 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overlay:hover .overlay-text {
+.our-portfolio-items:hover .overlay-text {
   transform: translateY(0%);
 }
 
